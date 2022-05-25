@@ -1,0 +1,34 @@
+.menu {
+  /* adicione o código correto para colocar o menu corretamente.*/
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  /* adicione o código correto para colocar os elementos da grade
+  um ao lado do outro igualmente.   */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
